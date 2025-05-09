@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+  <title>My Podcast</title>
+  <description>A collection of interesting audio content</description>
+  <language>en</language>
+  <itunes:author>Your Name</itunes:author>
+  <itunes:category text="Technology"/>
+  <itunes:explicit>no</itunes:explicit>
+  <item>
+    <title>Episode 1</title>
+    <description>First Episode of OTE</description>
+    <pubDate>Thu, 08 May 2025 08:27:30 -0400</pubDate>
+    <enclosure url="https://www.dropbox.com/scl/fi/fnr5dr69vscl2pepys2i3/OTE_010724_Segment1.mp3?rlkey=58dteogrnzk1055xtnmj945c4&st=bjnglqv6&dl=1" length="39412134" type="audio/mpeg"/>
+    <itunes:duration>1050.984490</itunes:duration>
+  </item>
+</channel>
+</rss>
