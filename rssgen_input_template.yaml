@@ -1,0 +1,68 @@
+# Example YAML input for rssgen.sh
+# Each entry represents a feed+episode to add or update
+
+- feed_file: test_feed.xml   # required
+  podcast_name: My Podcast    # required
+  podcast_desc: A show about tech   # required
+  podcast_link: https://mypodcast.com   # required
+  podcast_language: en-us     # optional
+  podcast_copyright: Copyright 2024   # optional
+  podcast_itunes_author: Jane Doe     # optional
+  podcast_itunes_summary: A tech show # optional
+  podcast_itunes_explicit: no         # optional
+  podcast_itunes_category: Technology # optional
+  podcast_itunes_image: https://mypodcast.com/cover.jpg # optional
+  podcast_itunes_owner_name: Jane Doe # optional
+  podcast_itunes_owner_email: jane@example.com # optional
+  podcast_itunes_type: episodic       # optional
+  ep_title: Episode 1                 # required
+  ep_desc: The first episode          # required
+  ep_url: https://mypodcast.com/ep1.mp3   # required
+  ep_date: 2024-07-01                 # required
+  ep_itunes_author: Jane Doe          # optional
+  ep_itunes_summary: All about tech   # optional
+  ep_itunes_explicit: no              # optional
+  ep_itunes_duration: "00:42:00"     # optional
+  ep_itunes_image: https://mypodcast.com/ep1.jpg # optional
+  ep_itunes_episode: 1                # optional
+  ep_itunes_season: 1                 # optional
+  ep_itunes_episodetype: full         # optional
+  strict: false                       # optional (set to true to require confirmation to update existing episode)
+
+- feed_file: test_feed.xml
+  podcast_name: My Podcast
+  podcast_desc: A show about tech
+  podcast_link: https://mypodcast.com
+  ep_title: Episode 1
+  ep_desc: The UPDATED first episode
+  ep_url: https://mypodcast.com/ep1-v2.mp3
+  ep_date: 2024-07-02
+  strict: false
+
+- feed_file: test_feed.xml
+  podcast_name: My Podcast
+  podcast_desc: A show about tech
+  podcast_link: https://mypodcast.com
+  ep_title: Episode 2
+  ep_desc: Second episode
+  ep_url: https://mypodcast.com/ep2.mp3
+  ep_date: 2024-07-03
+  strict: false
+
+- feed_file: test_feed.xml
+  podcast_name: My Podcast
+  podcast_desc: A show about tech
+  podcast_link: https://mypodcast.com
+  ep_title: Episode 3
+  ep_desc: Third episode
+  ep_url: https://mypodcast.com/ep3.mp3
+  ep_date: 2024-07-04
+  ep_itunes_author: Jane Doe
+  ep_itunes_summary: Summary for Ep 3
+  ep_itunes_explicit: yes
+  ep_itunes_duration: "00:30:00"
+  ep_itunes_image: https://mypodcast.com/ep3.jpg
+  ep_itunes_episode: 3
+  ep_itunes_season: 1
+  ep_itunes_episodetype: bonus
+  strict: true 
