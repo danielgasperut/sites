@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+  <title>Test Podcast</title>
+  <link>https://example.com</link>
+  <description>A test podcast description</description>
+  <item>
+    <title>Test Episode 1</title>
+    <description>This is the UPDATED first test episode (non-interactive).</description>
+    <enclosure url="https://example.com/audio1-updated-nonint.mp3" type="audio/mpeg"/>
+    <guid>6C1A509C-3FE2-4CB5-AEF5-288A4E2C39A8</guid>
+    <pubDate>2024-06-04</pubDate>
+  </item>
+  <item>
+    <title>Test Episode 2</title>
+    <description>This is the second test episode.</description>
+    <enclosure url="https://example.com/audio2.mp3" type="audio/mpeg"/>
+    <guid>D847C691-E13B-4121-BCC5-9D8CB46DF4B0</guid>
+    <pubDate>2024-06-02</pubDate>
+  </item>
+</channel>
+</rss>
